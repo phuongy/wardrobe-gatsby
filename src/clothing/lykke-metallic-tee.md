@@ -11,7 +11,7 @@ colour:
 - grey
 sleeve: short
 description: A glittery/sparkly fine, light t-shirt. Regular fit, fairly stretchy.
-year: 2017,
+year: 2017
 purchased: "2017-10-24"
 season:
 - summer
