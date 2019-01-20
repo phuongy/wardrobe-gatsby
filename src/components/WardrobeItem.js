@@ -16,7 +16,7 @@ class WardrobeItem extends Component {
     name: PropTypes.string,
     subcategory: PropTypes.array,
     timesWorn: PropTypes.number,
-    year: PropTypes.number,
+    year: PropTypes.string,
   }
 
   render() {

@@ -33,6 +33,7 @@ button {
     transition: background-image 0.2s ease;
 }
 
+button.active,
 button:hover {
     background-color: #c20114;
     background-image: linear-gradient(147deg, #c20114 0%, #e8c547 74%);

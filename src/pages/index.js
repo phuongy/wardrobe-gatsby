@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, StaticQuery } from 'gatsby'
+import { StaticQuery } from 'gatsby'
 import { WardrobeCatalogue } from '../components/WardrobeCatalogue';
 import './index.css';
 

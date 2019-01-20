@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 class ClothingTemplate extends React.Component {
   renderList = (name, list) => (
