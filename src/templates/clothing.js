@@ -2,11 +2,15 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 class ClothingTemplate extends React.Component {
-  renderList = (name, list) => (
-    <ul>
-      {list.map((item, index) => (<li key={`${name}-${index}`}>{item}</li>))}
-    </ul>
-  )
+  renderList = (name, list) => {
+    if (!Array.isArray(list)) return name;
+    return (
+      <ul>
+        {list.map((item, index) => (<li key={`${name}-${index}`}>{item}</li>))}
+      </ul>
+    )
+  }
+
   render() {
     const post = this.props.data.markdownRemark;
     const content = post.html;
