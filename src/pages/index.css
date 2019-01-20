@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,600,700');
+
+body {
+    background-color: #1B9AAA;
+    color: #2D3047;
+    font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 4vw;
+}
+
+hr {
+    border: 0;
+    border-top: 0.15rem solid #E84855;
+    height: 0;
+    margin: 2rem auto;
+    max-width: 3rem;
+}
+
+strong {
+    font-weight: 600;
+}
+
+button {
+    background-color: #fff;
+    border: 0;
+    border-radius: 0.5rem;
+    color: #1B9AAA;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: 2rem;
+    padding: 1rem 2rem;
+    transition: background-image 0.2s ease;
+}
+
+button:hover {
+    background-color: #c20114;
+    background-image: linear-gradient(147deg, #c20114 0%, #e8c547 74%);
+    color: #fff;
+}
+
+.c-header {
+    margin-bottom: 4rem;
+}
+
+.c-form {
+    margin-bottom: 1rem;
+}
+
+.c-input {
+    border: 0.25rem solid #E84855;
+    border-radius: 0.5rem;
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+}
+
+.c-list {
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.c-list-item {
+    background-color: #fff;
+    border: 0.25rem solid #E84855;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    box-shadow:
+        0.25rem 0.5rem #FF9B71,
+        0.5rem 1rem #FFFD82,
+        0.75rem 1.5rem #E84855;
+}
+
+.c-list-item--removed {
+    opacity: 0.4;
+}
+
+.inline-list {
+    display: block;
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+.item-name {
+    color: #1b9aaa;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.item-category {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.item-year {
+    display: block;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.item-colour {
+    margin-bottom: 1.5rem;
+    margin-top: 0.25rem;
+}

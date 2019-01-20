@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, StaticQuery } from 'gatsby'
-
 import { WardrobeCatalogue } from '../components/WardrobeCatalogue';
+import './index.css';
 
 // all the fields you want to pull in for the search
 const query = graphql`
